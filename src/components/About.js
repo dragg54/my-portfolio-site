@@ -3,7 +3,7 @@ import { FaMicroscope } from 'react-icons/fa'
 
 export const About = () => {
   return (
-    <div className=' h-[375px] bg-blue-100 w-full px-10 pt-10 font-[righteous]'>
+    <div className=' h-[390px] bg-blue-100 w-full px-10 pt-10 font-[righteous]'>
         <h1 className='text-4xl font-bold text-blue-900 mb-1 whitespace-nowrap flex '><span className='mr-2'>About Me</span></h1>
         <div className='w-7 transform skew-x-45 h-1 bg-[#E34234] mb-4'></div>
         <p className='text-blue-800 font-[poppins] text-sm'>A frontend developer whose interest revolves around developing 
