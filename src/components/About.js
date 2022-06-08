@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaMicroscope } from 'react-icons/fa'
 
 export const About = () => {
   return (

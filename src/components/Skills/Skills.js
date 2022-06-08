@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaTools} from 'react-icons/fa'
 
 const Skills = () => {
   return (
