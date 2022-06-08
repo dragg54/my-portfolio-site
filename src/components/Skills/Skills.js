@@ -3,12 +3,12 @@ import {FaTools} from 'react-icons/fa'
 
 const Skills = () => {
   return (
-    <div className='w-full h-60 bg-[#C26DBC]'>
-      <h1 className='text-4xl text-red-900 px-6 pt-10 flex justify-between w-[178px] font-[righteous] mb-6'>Skills <FaTools /></h1>
-      <div className='grid grid-cols-3 text-[11px] w-full justify-items-center content-start gap-3 text-[#0C1446'>
+    <div className='w-full h-60 bg-[#050533]'>
+      <h1 className='text-4xl text-[#E34234] px-6 pt-10 flex justify-between w-[178px] font-[righteous] mb-6'>Skills <FaTools /></h1>
+      <div className='grid grid-cols-3 text-[0.7rem] w-full justify-items-center gap-3 text-whit font-[Poppins] text-white'>
         <p>HTML</p>
         <p>CSS/SASS</p>
-        <p>TAIWIND CSS</p>
+        <p>TAILWIND CSS</p>
         <p>MATERIAL UI</p>
         <p>STYLED-COMPONENTS</p>
         <p>JAVASCRIPT</p>
