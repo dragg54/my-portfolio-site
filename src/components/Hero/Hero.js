@@ -5,7 +5,7 @@ import MediaIcons from '../mediaIcons/MediaIcons'
 
 export const Hero  = () => {
   return (
-    <div className="h-[500px] w-full bg-gradient-to-r from-[#0C1446] to-blue-900  px-6 pt-6 ">
+    <div className="h-[500px] w-full bg-gradient-to-r from-[#0C1446] to-blue-900  px-10 pt-6 ">
         <Header />
         <div className='w-full mx-auto'>
         <p className='text-gray-400 mb-1 font-[POPPINS] font-bold text-sm'>I AM</p>
