@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const MediaIcons = () => {
   return (
-    <div className='flex text-[#E34234] justify-between w-20 mt-6'>
+    <div className='flex text-[#E34234] justify-between w-20 mt-6 ml-4'>
         <FaFacebookF />
         <FaTwitter />
         <FaInstagram />
