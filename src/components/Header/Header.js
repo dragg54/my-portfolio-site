@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='mb-16 flex w-full justify-between'>
         <Nav />
-        <div className='text-[#E34234] text-[1.3rem]'><FiMenu /></div>
+        <div className='text-[#04D010] text-[1.5rem]'><FiMenu /></div>
         </div>
   )
 }
