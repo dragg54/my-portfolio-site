@@ -10,10 +10,10 @@ export const Hero = () => {
       <div className='px-4'>
 
       <div className="w-full mx-auto">
-        <p className="text-gray-300 font-[POPPINS] font-bold text-sm">
+        <p className="text-gray-300 font-[POPPINS] font-bold text-sm ml-12">
           I AM
         </p>
-        <h1 className="text-[4rem] leading-tight font-black text-[#E34234] font-[Luckiest Guy]">
+        <h1 className="text-[4rem] leading-[4.1rem] font-black text-[#E34234] font-[Luckiest Guy]">
           SADIQ AJIBOLA
         </h1>
         <p className="text-sm text-gray-300 font-[Poppins] font-bold">
