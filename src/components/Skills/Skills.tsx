@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import {icons}  from "../iconsData"
 
-const Skills = () => {
+const Skills:FunctionComponent = () => {
   return (
     <div className='w-full bg-gray-300 h-[760px] px-10 py-6'>
       <h1 className='text-3xl text-[#323432]pt-10 flex justify-between w-[132px] font-[Roboto] mb-1 font-black'><span className='mr-2'>SKILLS</span></h1>
@@ -11,8 +11,8 @@ const Skills = () => {
        {icons.map(icon=>{
          const {name, id, img} = icon
          return(
-           <div className='flex flex-col items-center'>
-           <div key={id} className="w-10 h-10 overflow-hidden object-contain mt-4">
+           <div className='flex flex-col items-center' key={id} >
+           <div className="w-10 h-10 overflow-hidden object-contain mt-4">
              <img src={img} alt="" />
            </div>
            <p className='text-[0.5rem] mt-2'>{name}</p>
