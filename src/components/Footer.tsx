@@ -8,7 +8,7 @@ const Footer = () => {
         <FaTwitter className='mr-2'/>
         <FaInstagram className='mr-2'/>
         <FaLinkedin className='mr-2'/>
-        <p> ©Sadiq Ajibola</p>
+        <p> Sadiq Ajibola©2022</p>
 
     </div>
   )
