@@ -1,21 +1,19 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { BrowserRouter, Link } from 'react-router-dom';
 
 const MediaIcons = () => {
   return (
     <div className='w-full mt-10'>
-      <div className=' text-[#E34234]  w-20 justify-between flex  text-base'>
-        <FaFacebookF />
-        <FaTwitter />
-        <FaInstagram />
-        <FaLinkedin />
-
+      <div className=' text-[#E34234]  w-28 justify-between flex  text-base'>
+        <a href="https://web.facebook.com/jibola.ayobami" target="_blank"><FaFacebookF /></a>
+        <a href="https://twitter.com/dragg54" target="_blank"><FaTwitter /></a>
+        <a href="https://www.instagram.com/jibolaayobami/" target="_blank"><FaInstagram /></a>
+        <a href="https://linkedin.com/in/ajibola-ayobami-50260a209" target="_blank"><FaLinkedin /></a>
+        <a href="https://github.com/dragg54" target="_blank"><FaGithub /></a>
       </div>
-     {/*  <div className='flex flex-col justify-between items-center w-6 h-20 animate-bounce '>
-        <div><p className='transform rotate-90 text-[#E34234] text-[0.6rem]'>SCROLL</p></div>
-        <div className='h-10 w-[1px] bg-[#E34234]'></div>
-      </div> */}
     </div>
+
   )
 }
 

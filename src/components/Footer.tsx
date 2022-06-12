@@ -1,16 +1,20 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='h-10 w-full bg-gray-400 px-10 flex text-[#323432] text-sm justify-end items-center font-[poppins]'>
-          <FaFacebookF className='mr-2'/>
-        <FaTwitter className='mr-2'/>
-        <FaInstagram className='mr-2'/>
-        <FaLinkedin className='mr-2'/>
-        <p> Sadiq Ajibola©2022</p>
-
+    <>
+    <div className='h-10 w-full bg-gray-400  flex text-[#323432] text-sm justify-center items-center font-[poppins]'>
+    <a href="https://web.facebook.com/jibola.ayobami" target="_blank" className='mr-2'><FaFacebookF /></a>
+    <a href="https://twitter.com/dragg54" target="_blank" className='mr-2'><FaTwitter /></a>
+    <a href="https://github.com/dragg54" target="_blank" className='mr-2'><FaGithub /></a>
+    <a href="https://www.instagram.com/jibolaayobami/" target="_blank" className='mr-2'><FaInstagram /></a>
+    <a href="https://linkedin.com/in/ajibola-ayobami-50260a209" target="_blank" className='mr-2'><FaLinkedin /></a>
+      
+        <p className='text-sm'> Sadiq Ajibola <span className='text-[#E34234]'>copyright©2022</span></p>
     </div>
+ 
+    </>
   )
 }
 

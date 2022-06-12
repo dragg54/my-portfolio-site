@@ -2,16 +2,18 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="h-[900px] w-full bg-[#323432] px-10 py-10">
+    <div className="h-[900px] w-full bg-[#323432] px-10 py-10 md:p-14 md:flex items-center md:24 flex-col" id="contact">
+      <div>
       <h1 className="text-4xl font-black text-gray-300 mb-1 whitespace-nowrap flex ">
         <span className="mr-2 font-[Roboto]">CONTACT ME</span>
       </h1>
       <div className="w-7 transform skew-x-45 h-1 bg-[#E34234] mb-4"></div>
+      </div>
       <p className="text-gray-300 font-[poppins] mt-6">
         You can contact me by filling the form below and clicking the submit button. I will surely
         get back to you.
       </p>
-      <div className="bg-white h-[600px] w-full mt-8 font-[poppins]">
+      <div className="bg-white h-[600px] w-full mt-8 font-[poppins] md:w-3/5">
         <form action="" className="px-4 py-6 w-full">
           <label htmlFor="name" className="text-[#323432]">
             Your name
