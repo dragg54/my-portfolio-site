@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react'
+import React, { FunctionComponent, } from 'react'
 import Nav from './Nav'
 import { FiMenu } from 'react-icons/fi'
 

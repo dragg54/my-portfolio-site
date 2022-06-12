@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
-import { BrowserRouter, Link } from 'react-router-dom';
 
 const MediaIcons = () => {
   return (
