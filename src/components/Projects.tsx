@@ -22,7 +22,7 @@ const Projects = () => {
             <img src="../../icons/styled_components.png" alt="" className='h-5 w-5 mr-3' />
             <img src="../../icons/git.png" alt="" className='h-5 w-5' />
           </div>
-          <a href="https://github.com/dragg54/ecommerce-store" target="_blank" rel="nonreferrer"><button className='text-[10px] bg-[#E34234] px-4 py-3 text-green-100  mt-8 font-[Poppins] mx-auto shadow-[2xl_2xl_2xl_red] rounded-md'>VIEW PROJECT</button></a></div>
+          <a href="https://github.com/dragg54/ecommerce-store" target="_blank" rel="noreferrer"><button className='text-[10px] bg-[#E34234] px-4 py-3 text-green-100  mt-8 font-[Poppins] mx-auto shadow-[2xl_2xl_2xl_red] rounded-md'>VIEW PROJECT</button></a></div>
       </div>
 
       <div className='mt-24 relative md:flex justify-between flex flex-col md:flex-row items-center'>
@@ -39,7 +39,7 @@ const Projects = () => {
             <img src="../../icons/js.png" alt="" className='h-5 w-6 mr-3' />
             <img src="../../icons/git.png" alt="" className='h-5 w-5' />
           </div>
-          <a href="https://github.com/dragg54/chinny-cribzy" target="_blank" rel="nonreferrer"><button className='text-[10px] bg-[#E34234] px-4 py-3 text-green-100  mt-8 font-[Poppins] mx-auto shadow-[2xl_2xl_2xl_red] rounded-md'>VIEW PROJECT</button></a></div>
+          <a href="https://github.com/dragg54/chinny-cribzy" target="_blank" rel="noreferrer"><button className='text-[10px] bg-[#E34234] px-4 py-3 text-green-100  mt-8 font-[Poppins] mx-auto shadow-[2xl_2xl_2xl_red] rounded-md'>VIEW PROJECT</button></a></div>
       </div>
 
 
