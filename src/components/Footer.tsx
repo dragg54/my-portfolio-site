@@ -11,7 +11,7 @@ const Footer = () => {
     <a href="https://www.instagram.com/jibolaayobami/" target="_blank" rel="noreferrer" className='mr-2'><FaInstagram /></a>
     <a href="https://linkedin.com/in/ajibola-ayobami-50260a209" target="_blank" rel="noreferrer" className='mr-2'><FaLinkedin /></a>
       
-        <p className='text-sm'> Sadiq Ajibola <span className='text-[#E34234]'>copyright©2022</span></p>
+        <p className='text-sm'> Sadiq Ajibola <span className='text-[#E34234]'>©2022</span></p>
     </div>
  
     </>

@@ -1,12 +1,13 @@
 import React, { FunctionComponent } from 'react'
 import {icons}  from "../iconsData"
+import "aos/dist/aos.css";
 
 const Skills:FunctionComponent = () => {
   return (
-    <div data-aos="fade-up" data-aos-duration="2000" className='w-full bg-gray-300 h-[680px] px-10 py-10 md:px-14 md:py-14 xl:p-36 xl:h-[770px]' id="skills">
+    <div className='w-full bg-gray-300 h-[680px] px-10 py-10 md:px-14 md:py-14 xl:p-36 xl:h-[770px]' id="skills">
       <h1 className='text-3xl text-[#E34234]pt-10 flex justify-between w-[132px] font-[Roboto] mb-1 font-black md:text-4xl'><span className='mr-2'>SKILLS</span></h1>
       <div className='w-7 transform skew-x-45 h-1 bg-[#E34234] mb-6'></div>
-      <p className='text-[#323432] font-[poppins] mb-8'>I have substantial amount of knowledge and experience using the skills below</p>
+      <p className='text-[#323432] font-[poppins] mb-8'  data-aos="fade-up" data-aos-duration="1000">I have substantial amount of knowledge and experience using the skills below</p>
       <div className='grid grid-cols-3 text-[0.7rem] w-full  p-0 gap-3 justify-items-start font-[Poppins] text-[#323432]text-left'>
        {icons.map(icon=>{
          const {name, id, img} = icon

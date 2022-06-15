@@ -41,7 +41,7 @@ export const Hero: FunctionComponent = () => {
     <BrowserRouter>
       <div className="h-[580px] w-full bg-gradient-to-r from-[#323432] to-black  px-6 pt-6 relative md:h-[640px] md:px-12">
         <Header clickMe={handleOpen} />
-        <div data-aos="fade-up" data-aos-duration="2000" className="px-4 md:px-10 lg:px-16 xl:px-36">
+        <div  className="px-4 md:px-10 lg:px-16 xl:px-36"  data-aos="fade-up" data-aos-duration="1000">
             <p className="text-gray-400 font-[POPPINS]  text-sm ml-10 md:text-base font-bold">
               I AM
             </p>
@@ -52,7 +52,7 @@ export const Hero: FunctionComponent = () => {
               A FRONTEND DEVELOPER.
             </p>
             <p className="text-sm text-gray-400 font-[Poppins] w-4/5 mt-4 sm:w-3/5 md:mt-4 md:w-[300px] md:text-base">
-             Highly skilled in the development of the frontend compositions of a website. 
+             Highly skilled in the development of the frontend compositions of any type of website. 
             </p>
           <MediaIcons />
         </div>
