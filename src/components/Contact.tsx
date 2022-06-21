@@ -10,7 +10,7 @@ const Contact = () => {
       </h1>
       <div className="w-7 transform skew-x-45 h-1 bg-[#E34234] mb-4"></div>
       </div>
-      <p className="text-gray-300 font-[poppins] mt-6  md:w-4/5 lg:w-3/5cv"  data-aos="fade-up" data-aos-duration="1000">
+      <p className="text-gray-300 font-[poppins] mt-6  md:w-4/5 lg:w-3/5"  data-aos="fade-up" data-aos-duration="1000">
         You can contact me by filling the form below and clicking the submit button. I will surely
         get back to you.
       </p>
