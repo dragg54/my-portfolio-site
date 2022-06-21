@@ -39,13 +39,13 @@ export const Hero: FunctionComponent = () => {
 
   return (
     <BrowserRouter>
-      <div className="h-[580px] w-full bg-gradient-to-r from-[#323432] to-black  px-6 pt-6 relative md:h-[640px] md:px-12">
+      <div className="h-[580px] w-full bg-gradient-to-r from-[#323432] to-black  px-6 pt-6 relative md:h-[640px] md:px-12 lg:h-[750px]">
         <Header clickMe={handleOpen} />
-        <div  className="px-4 md:px-10 lg:px-16 xl:px-36"  data-aos="fade-up" data-aos-duration="1000">
+        <div  className="px-4 md:px-10 lg:px-16 lg:mt-[150px] xl:px-36"  data-aos="fade-up" data-aos-duration="1000">
             <p className="text-gray-400 font-[POPPINS]  text-sm ml-10 md:text-base font-bold">
               I AM
             </p>
-            <h1 className="text-[4rem] leading-[4.1rem] font-black text-[#E34234] font-[Luckiest Guy] sm:text-[4.8rem] sm:leading-[4.6rem] md:text-[5.6rem] md:leading-[5rem] lg:text-[6.1rem]">
+            <h1 className="text-[4rem] leading-[4.1rem] font-black text-[#E34234] font-[Luckiest Guy] sm:text-[4.8rem] sm:leading-[4.6rem] md:text-[5.6rem] md:leading-[5rem] lg:text-[7rem]">
               SADIQ AJIBOLA.
             </h1>
             <p className="text-base font-bold text-gray-400 font-[Poppins] w-3/4 mt-2 sm:w-3/5 md:mt-4 md:text-xl">
