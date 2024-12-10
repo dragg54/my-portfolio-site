@@ -13,10 +13,10 @@ const Skills:FunctionComponent = () => {
          const {name, id, img} = icon
          return(
            <div className={`flex flex-col items-center`} key={id} >
-           <div className={`${name == 'Styled Components' && 'mr-[300px]'} w-10 h-10 overflow-hidden object-contain mt-4`}>
-             <img className={`${name == 'Styled Components' && 'mr-[300px]'}`} src={img} alt="" />
+           <div className={`${name === 'Styled Components' && 'mr-[300px]'} w-10 h-10 overflow-hidden object-contain mt-4`}>
+             <img className={`${name === 'Styled Components' && 'mr-[300px]'}`} src={img} alt="" />
            </div>
-           <p className={`${name == 'Styled Components' && 'mr-[300px]'} text-[0.6rem] mt-2 sm:text-[0.8rem]`}>{name}</p>
+           <p className={`${name === 'Styled Components' && 'mr-[300px]'} text-[0.6rem] mt-2 sm:text-[0.8rem]`}>{name}</p>
            </div>
          )
        })}

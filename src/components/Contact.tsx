@@ -48,7 +48,7 @@ const Contact = () => {
             cols = {12}
             rows = {6}
             placeholder="Message"
-            className="border border-gray-300 p-3 w-full mt-2 border bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-md shadow-gray-300 mb-2"
+            className=" border-gray-300 p-3 w-full mt-2 border bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-md shadow-gray-300 mb-2"
           ></textarea>
          <div className="flex justify-end w-full ">
           <input type="submit" className="cursor-pointer text-sm px-4 py-2 bg-red-500 rounded-md text-white shadow-md shadow-red-300 ml-[]"/></div> 

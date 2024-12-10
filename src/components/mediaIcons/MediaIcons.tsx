@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const MediaIcons = () => {
   return (
