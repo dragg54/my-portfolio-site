@@ -10,8 +10,7 @@ export const Interests = () => {
       <div className='h-96 bg-gray-200 rounded-t-[20px] mt-6 py-2 px-4 shadow-[2px_2px_4px_gray] md:mr-4 md:h-[450px] md:px-8'>
         <h1 className='text-center font-[roboto] text-gray-700 mt-6 text-xl'>Web Development</h1>
         <div className='flex justify-center mt-6'><img src="../../images/web developer.png" alt="" className='h-48 w-48 md:h-[210px] md:w-[210px]'/></div>
-        <p className='text-sm text-gray-700 text-left font-[poppins]'>I love using my acquired skills and logic to build websites
-         to suit the targetted requirements.</p>
+        <p className='text-sm text-gray-700 text-left font-[poppins]'>I develop web applications that conform with required users' experience and functionality.</p>
       </div>
 
       <div className='h-96 bg-gray-300 rounded-t-[20px] mt-6 py-2  shadow-[2px_2px_4px_gray] px-4 md:h-[450px] md:px-8'>

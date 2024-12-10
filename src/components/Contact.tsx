@@ -14,50 +14,44 @@ const Contact = () => {
         You can contact me by filling the form below and clicking the submit button. I will surely
         get back to you.
       </p>
-      <div className="bg-white h-[600px] w-full mt-8 font-[poppins] md:w-4/5 lg:w-3/5 md:h-[680px] rounded-md" >
-        <form action="" className="px-4 py-6 w-full">
+      <div className="bg-white h-auto w-full mt-8 font-[poppins] w-auto rounded-md" >
+        <form action="" className="px-4 py-6 w-full md:w-[400px] mx-auto">
           <label htmlFor="name" className="text-[#323432]">
-            Your name
           </label>{" "}
           <br />
           <input
             type="text"
-            placeholder="name"
-            className="border-[#323432] w-full mt-4 border-b bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-[1px_1px_1px_1px_gray] mb-6 md:h-10"
+            placeholder="Name"
+            className="border border-gray-300 w-full border-b bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shodow-sm shadow-gray-400 mb-2 md:h-10"
           />
-          <br />
-
-           <label htmlFor="phone" className="text-[#323432]">
-            Your phone
-          </label>
           <br />
           <input
             type="text"
-            placeholder="phone"
+            placeholder="Phone"
             name="phone"
-            className="md:h-10 border-[#323432] w-full mt-6 border-b bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-[1px_1px_1px_1px_gray] mb-6"
+            className="md:h-10 border border-gray-300 w-full  border-b bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shodow-sm shadow-gray-400 mb-2"
           />
 
-           <label htmlFor="name" className="text-[#323432] mt-6">
-            Email
+           <label htmlFor="name" className="text-[#323432] ">
           </label>{" "}
           <br />
           <input
             type="text"
-            placeholder="email"
-            className="md:h-10 border-[#323432] w-full mt-4 border-b bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-[1px_1px_1px_1px_gray] mb-6"
+            placeholder="Email"
+            className="md:h-10 border border-gray-300 w-full border-b bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shodow-sm shadow-gray-400 mb-2"
           />
 
-           <label htmlFor="name" className="text-[#323432] mt-6">
-            Message
+           <label htmlFor="name" className="text-[#323432]">
           </label>{" "}
           <br />
           <textarea
             cols = {12}
             rows = {6}
-            className="border-[#323432] w-full mt-4 border bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-[1px_1px_1px_1px_gray] mb-6"
+            placeholder="Message"
+            className="border border-gray-300 p-3 w-full mt-2 border bg-gray-300 border-r outline-none pb-1 px-2 text-base rounded-sm shadow-md shadow-gray-300 mb-2"
           ></textarea>
-         <div className="flex justify-end w-full "><input type="submit" className="text-sm px-4 py-2 bg-[#E34234] text-gray-300 shadow-[1px_1px_1px_1px_red] ml-[]"/></div> 
+         <div className="flex justify-end w-full ">
+          <input type="submit" className="cursor-pointer text-sm px-4 py-2 bg-red-500 rounded-md text-white shadow-md shadow-red-300 ml-[]"/></div> 
         </form>
       </div>
     </div>

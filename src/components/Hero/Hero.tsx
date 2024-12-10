@@ -49,10 +49,10 @@ export const Hero: FunctionComponent = () => {
               SADIQ AJIBOLA.
             </h1>
             <p className="text-base font-bold text-gray-400 font-[Poppins] w-3/4 mt-2 sm:w-3/5 md:mt-4 md:text-xl">
-              A FRONTEND DEVELOPER.
+              A SOFTWARE DEVELOPER.
             </p>
             <p className="text-sm text-gray-400 font-[Poppins] w-4/5 mt-4 sm:w-3/5 md:mt-4 md:w-[300px] md:text-base">
-             Highly skilled in the development of the frontend compositions of any type of website. 
+             Skilled in the development of the frontend components of any type of website. 
             </p>
           <MediaIcons />
         </div>
